@@ -8,8 +8,6 @@
  */
 int main(int argc, char *argv[])
 {
-bus_t bus = {NULL, NULL, NULL, 0};
-
 char content[1024]; /* Adjust the buffer size as needed */
 FILE *file;
 size_t size = sizeof(content);
